@@ -1,0 +1,259 @@
+#network .btn-twitter {
+  border-color: #00aced;
+  color: #00aced !important; }
+#network .btn-facebook {
+  border-color: #3b5998;
+  color: #3b5998 !important; }
+#network .btn-linkedin {
+  border-color: #007bb6;
+  color: #007bb6 !important; }
+#network .btn-social {
+  color: #fff;
+  font-size: 11px; }
+  #network .btn-social .fa {
+    font-size: 16px; }
+#network .statistics {
+  color: #9a9a9a;
+  background-color: #fafafa; }
+  #network .statistics b {
+    color: #666; }
+  #network .statistics .total {
+    font-size: 29px; }
+#network .network-logo {
+  background-color: #fff;
+  border: 2px solid #eee;
+  display: block;
+  text-align: center; }
+  #network .network-logo img {
+    max-height: 100px;
+    padding: 10px 0; }
+#network .btn-out {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #666;
+  background-color: #eee;
+  transition: all .15s ease-in-out;
+  border-color: #eee;
+  line-height: 22px; }
+#network .btn-affiliate.enabled {
+  color: #66be00; }
+#network .btn-affiliate {
+  border: 1px solid #e8e8e8;
+  background-color: #fff; }
+
+.btn-cta {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #fff;
+  background-color: #2ed06e;
+  transition: all .15s ease-in-out;
+  border-color: #2ed06e;
+  padding: 5px 12px;
+  cursor: pointer; }
+
+h1 {
+  font-size: 2.2rem; }
+
+.btn-twitter {
+  border-color: #00aced;
+  color: #00aced !important; }
+
+.btn-facebook {
+  border-color: #3b5998;
+  color: #3b5998 !important; }
+
+.btn-linkedin {
+  border-color: #007bb6;
+  color: #007bb6 !important; }
+
+.btn-social {
+  color: #fff;
+  font-size: 11px; }
+  .btn-social .fa {
+    font-size: 16px; }
+
+.merchant .logo {
+  background-color: #fff;
+  border: 2px solid #f2f5f8;
+  text-align: center;
+  width: 110px;
+  height: 45px; }
+  .merchant .logo img {
+    max-width: 80px;
+    max-height: 35px;
+    display: inherit;
+    padding: 0; }
+
+.btn-affiliate.enabled {
+  color: #66be00; }
+
+.btn-affiliate {
+  border: 1px solid #e8e8e8;
+  background-color: #fff; }
+
+.btn-affiliate.refused {
+  color: #f95353; }
+
+.network-logo {
+  background-color: #fff;
+  border: 2px solid #eee;
+  display: block;
+  text-align: center; }
+  .network-logo img {
+    max-height: 100px;
+    padding: 10px 0; }
+
+.btn-out {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #666;
+  background-color: #eee;
+  transition: all .15s ease-in-out;
+  border-color: #eee;
+  line-height: 22px; }
+
+.strackr {
+  background-color: #ffffe3;
+  padding-top: 1rem;
+  padding-bottom: 1rem; }
+  .strackr .title {
+    font-size: 1.5rem;
+    font-weight: 500; }
+  .strackr .subtitle {
+    font-size: 17px; }
+  .strackr .btn-cta {
+    font-size: 1rem;
+    font-weight: 400;
+    transition: all .15s ease-in-out;
+    line-height: 30px; }
+    .strackr .btn-cta .fa {
+      font-size: 1.4rem;
+      margin-left: 15px !important; }
+  .strackr .network-logo img {
+    max-height: 168px;
+    padding: 0; }
+
+.btn-cta {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #fff;
+  background-color: #2ed06e;
+  transition: all .15s ease-in-out;
+  border-color: #2ed06e;
+  padding: 5px 12px;
+  cursor: pointer; }
+  .btn-cta .fa {
+    padding-left: 3px;
+    color: rgba(255, 255, 255, 0.7); }
+
+#contact h1, #aboutus h1 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 70px 0 50px 0; }
+
+body {
+  font-family: 'Open Sans',sans-serif;
+  color: #666;
+  font-weight: 300;
+  margin-bottom: 100px;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: left;
+  background-color: #fff; }
+  body #header {
+    background-color: #414141;
+    color: #fff;
+    border: 0;
+    border-radius: 0; }
+    body #header .navbar-brand {
+      padding: 0; }
+    body #header #search {
+      position: relative;
+      font-size: 16px; }
+      body #header #search label {
+        position: absolute;
+        display: inline;
+        left: 12px;
+        top: 9px;
+        color: #bbb;
+        z-index: 2; }
+      body #header #search input {
+        padding: .275rem 36px; }
+    body #header #navbars .navbar-nav li {
+      font-size: 1rem;
+      font-weight: normal;
+      line-height: 25px; }
+      body #header #navbars .navbar-nav li a {
+        color: #fff;
+        padding: 5px 15px;
+        margin: 2px 0;
+        border-radius: 2px; }
+      body #header #navbars .navbar-nav li .dropdown-toggle::after {
+        display: none; }
+  body #subheader {
+    background-color: #fafafa;
+    font-size: 19px;
+    font-weight: 400; }
+    body #subheader .btn-cta {
+      font-size: 1rem;
+      font-weight: 400;
+      color: #fff;
+      background-color: #2ed06e;
+      transition: all .15s ease-in-out;
+      border-color: #2ed06e;
+      padding: 5px 12px;
+      cursor: pointer; }
+
+#home .network-logo, #network .network-logo {
+  background-color: #fff;
+  border: 2px solid #eee;
+  display: block;
+  text-align: center; }
+  #home .network-logo img, #network .network-logo img {
+    max-height: 100px;
+    padding: 10px 0; }
+#home .table-affiliate, #network .table-affiliate {
+  border-bottom: 0 !important; }
+  #home .table-affiliate .td-logo, #network .table-affiliate .td-logo {
+    max-width: 130px;
+    padding-left: 0; }
+    #home .table-affiliate .td-logo div, #network .table-affiliate .td-logo div {
+      background-color: #fff;
+      border: 2px solid #f2f5f8;
+      display: block;
+      text-align: center;
+      width: 110px;
+      height: 45px; }
+    #home .table-affiliate .td-logo img, #network .table-affiliate .td-logo img {
+      max-width: 80px;
+      max-height: 35px;
+      display: inherit;
+      padding: 0; }
+  #home .table-affiliate a, #network .table-affiliate a {
+    color: #666; }
+  #home .table-affiliate .td-sm, #network .table-affiliate .td-sm {
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #919191; }
+  #home .table-affiliate tbody tr td, #network .table-affiliate tbody tr td {
+    padding: 10px 15px 10px 5px;
+    height: 45px;
+    color: #666;
+    border: 0;
+    border-bottom: 1px solid #f2f5f8;
+    vertical-align: middle; }
+#home .table-affiliate-no-th th, #network .table-affiliate-no-th th {
+  border: 0 !important;
+  padding: 0; }
+
+.dropdown:hover .dropdown-menu {
+  display: block; }
+
+.dropdown-item {
+  color: #212529 !important; }
+
+@media only screen and (max-width: 800px) {
+  #home .table-affiliate td:nth-child(1) {
+    display: none; } }
+
+/*# sourceMappingURL=app.css.map */

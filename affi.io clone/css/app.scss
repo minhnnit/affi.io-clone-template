@@ -1,0 +1,144 @@
+@import "_n-details";
+@import "_m-details";
+@import "_p-details";
+body{
+  font-family: 'Open Sans',sans-serif;
+  color: #666;
+  font-weight: 300;
+  margin-bottom: 100px;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: left;
+  background-color: #fff;
+  #header{
+    background-color: #414141;
+    color: #fff;
+    border: 0;
+    border-radius: 0;
+    .navbar-brand{
+      padding: 0;
+    }
+    #search{
+      position: relative;
+      font-size: 16px;
+      label{
+        position: absolute;
+        display: inline;
+        left: 12px;
+        top: 9px;
+        color: #bbb;
+        z-index: 2;
+      }
+      input{
+        padding: .275rem 36px;
+      }
+    }
+    #navbars{
+      .navbar-nav{
+        li{
+          font-size: 1rem;
+          font-weight: normal;
+          line-height: 25px;
+          a{
+            color: #fff;
+            padding: 5px 15px;
+            margin: 2px 0;
+            border-radius: 2px;
+          }
+          .dropdown-toggle::after{
+            display: none;
+          }
+        }
+      }
+    }
+  }
+  #subheader{
+    background-color: #fafafa;
+    font-size: 19px;
+    font-weight: 400;
+    .btn-cta{
+      font-size: 1rem;
+      font-weight: 400;
+      color: #fff;
+      background-color: #2ed06e;
+      transition: all .15s ease-in-out;
+      border-color: #2ed06e;
+      padding: 5px 12px;
+      cursor: pointer;
+    }
+  }
+}
+#home,#network{
+  .network-logo{
+    background-color: #fff;
+    border: 2px solid #eee;
+    display: block;
+    text-align: center;
+    img {
+      max-height: 100px;
+      padding: 10px 0;
+    }
+  }
+  .table-affiliate{
+    border-bottom: 0!important;
+    .td-logo{
+      max-width: 130px;
+      padding-left: 0;
+      div{
+        background-color: #fff;
+        border: 2px solid #f2f5f8;
+        display: block;
+        text-align: center;
+        width: 110px;
+        height: 45px;
+      }
+      img{
+        max-width: 80px;
+        max-height: 35px;
+        display: inherit;
+        padding: 0;
+      }
+    }
+    a{
+      color:#666;
+    }
+    .td-sm{
+      font-size: 11px;
+      text-transform: uppercase;
+      color: #919191;
+    }
+    tbody{
+      tr{
+        td{
+          padding: 10px 15px 10px 5px;
+          height: 45px;
+          color: #666;
+          border: 0;
+          border-bottom: 1px solid #f2f5f8;
+          vertical-align: middle;
+        }
+      }
+    }
+  }
+  .table-affiliate-no-th{
+    th{
+      border: 0 !important;
+      padding: 0;
+    }
+  }
+}
+.dropdown:hover{
+  .dropdown-menu{
+    display: block;
+  }
+}
+.dropdown-item{
+  color: #212529!important;
+}
+@media only screen and (max-width: 800px){
+  #home .table-affiliate td:nth-child(1) {
+    display: none;
+  }
+}
+
+

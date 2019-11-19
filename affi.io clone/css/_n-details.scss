@@ -1,0 +1,67 @@
+#network{
+  .btn-twitter {
+    border-color: #00aced;
+    color: #00aced!important;
+  }
+  .btn-facebook {
+    border-color: #3b5998;
+    color: #3b5998!important;
+  }
+  .btn-linkedin {
+    border-color: #007bb6;
+    color: #007bb6!important;
+  }
+  .btn-social {
+    color: #fff;
+    font-size: 11px;
+    .fa{
+      font-size: 16px;
+    }
+  }
+  .statistics{
+    color: #9a9a9a;
+    background-color: #fafafa;
+    b{
+      color: #666;
+    }
+    .total{
+      font-size: 29px;
+    }
+  }
+  .network-logo{
+    background-color: #fff;
+    border: 2px solid #eee;
+    display: block;
+    text-align: center;
+    img{
+      max-height: 100px;
+      padding: 10px 0;
+    }
+  }
+  .btn-out {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #666;
+    background-color: #eee;
+    transition: all .15s ease-in-out;
+    border-color: #eee;
+    line-height: 22px;
+  }
+  .btn-affiliate.enabled {
+    color: #66be00;
+  }
+  .btn-affiliate {
+    border: 1px solid #e8e8e8;
+    background-color: #fff;
+  }
+}
+.btn-cta {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #fff;
+  background-color: #2ed06e;
+  transition: all .15s ease-in-out;
+  border-color: #2ed06e;
+  padding: 5px 12px;
+  cursor: pointer;
+}

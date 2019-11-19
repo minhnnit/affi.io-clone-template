@@ -1,0 +1,109 @@
+h1 {
+  font-size: 2.2rem;
+}
+.btn-twitter {
+  border-color: #00aced;
+  color: #00aced!important;
+}
+.btn-facebook {
+  border-color: #3b5998;
+  color: #3b5998!important;
+}
+.btn-linkedin {
+  border-color: #007bb6;
+  color: #007bb6!important;
+}
+.btn-social {
+  color: #fff;
+  font-size: 11px;
+
+  .fa {
+    font-size: 16px;
+  }
+}
+.merchant{
+  .logo{
+    background-color: #fff;
+    border: 2px solid #f2f5f8;
+    text-align: center;
+    width: 110px;
+    height: 45px;
+    img{
+      max-width: 80px;
+      max-height: 35px;
+      display: inherit;
+      padding: 0;
+    }
+  }
+}
+.btn-affiliate.enabled {
+  color: #66be00;
+}
+.btn-affiliate {
+  border: 1px solid #e8e8e8;
+  background-color: #fff;
+}
+.btn-affiliate.refused {
+  color: #f95353;
+}
+.network-logo{
+  background-color: #fff;
+  border: 2px solid #eee;
+  display: block;
+  text-align: center;
+  img{
+    max-height: 100px;
+    padding: 10px 0;
+  }
+}
+.btn-out {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #666;
+  background-color: #eee;
+  transition: all .15s ease-in-out;
+  border-color: #eee;
+  line-height: 22px;
+}
+.strackr {
+  background-color: #ffffe3;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  .title{
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  .subtitle{
+    font-size: 17px;
+  }
+  .btn-cta{
+    font-size: 1rem;
+    font-weight: 400;
+    transition: all .15s ease-in-out;
+    line-height: 30px;
+    .fa{
+      font-size: 1.4rem;
+      margin-left: 15px !important;
+    }
+  }
+  .network-logo{
+    img{
+      max-height: 168px;
+      padding: 0;
+    }
+  }
+}
+.btn-cta {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #fff;
+  background-color: #2ed06e;
+  transition: all .15s ease-in-out;
+  border-color: #2ed06e;
+  padding: 5px 12px;
+  cursor: pointer;
+  .fa{
+    padding-left: 3px;
+    color: rgba(255,255,255,0.7);
+  }
+}
