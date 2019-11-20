@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Affi.io</title>
+    <meta name="description"
+          content=" Add Indxu to your browser to quickly find and apply coupon codes when you shop online. Available at 3600+ Stores!">
+    <meta name="keywords"
+          content="Automatic Coupons, Browser Extension for Coupons, Extension for Coupons, Coupons Button">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/jquery.typeahead.min.css">
+    <link rel="stylesheet" href="css/app.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/jquery.shorten.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+            integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+            crossorigin="anonymous"></script>
+
+</head>
+<body>
+<header>
+    <nav id="header" class="navbar navbar-expand-md navbar-dark">
+        <div class="container">
+            <a href="/" class="navbar-brand">
+                <img src="image/logo-header.png" alt="">
+            </a>
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbars"
+                    aria-controls="navbars" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <form id="search" class="form-inline d-inline offset-md-1 col-md-3 px-0 mt-2 mt-md-0">
+                <div class="typeahead__container">
+                    <div class="typeahead__field">
+                        <span class="typeahead__query">
+                            <label for="search-input">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                                <span class="sr-only">Search icons</span>
+                            </label>
+                            <span class="typeahead__cancel-button">×</span>
+                            <input id="search-input" class="js-typeahead" name="q" type="search" autocomplete="off"
+                                   placeholder="Search an affiliate program">
+                        </span>
+                    </div>
+                </div>
+            </form>
+            <div class="collapse navbar-collapse" id="navbars">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="true">
+                            Networks </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown01">
+                            <a class="dropdown-item" href="">Admitad</a><a class="dropdown-item" href="">Adrecord</a><a
+                                class="dropdown-item" href="">Adtraction</a><a class="dropdown-item" href="">Affilae</a><a
+                                class="dropdown-item" href="">Affilinet</a><a class="dropdown-item" href="">Awin</a><a
+                                class="dropdown-item" href="">CJ Affiliate</a><a class="dropdown-item"
+                                                                                 href="">Daisycon</a><a
+                                class="dropdown-item" href="">Effiliation</a><a class="dropdown-item"
+                                                                                href="">FlexOffers</a><a
+                                class="dropdown-item" href="">Impact Radius</a><a class="dropdown-item" href="">Mediaffiliation</a><a
+                                class="dropdown-item" href="">NetAffiliation</a><a class="dropdown-item" href="">Partnerize</a><a
+                                class="dropdown-item" href="">Puremium</a><a class="dropdown-item" href="">TimeOne
+                            Performance</a><a class="dropdown-item" href="">TradeDoubler</a><a class="dropdown-item"
+                                                                                               href="">TradeTracker</a><a
+                                class="dropdown-item" href="">Webgains</a><a class="dropdown-item"
+                                                                             href="">Independent</a></div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown02" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="true">
+                            <span class="d-none d-sm-inline"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></span>
+                            <span class="d-inline d-sm-none">More <i class="fa fa-angle-down"
+                                                                     aria-hidden="true"></i></span>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown02">
+                            <a class="dropdown-item" href="" target="_blank">Twitter</a>
+                            <a class="dropdown-item" href="p-details.html">Newsletter</a>
+                            <a class="dropdown-item" href="about-us.html">About us</a>
+                            <a class="dropdown-item" href="contact-us.html">Contact us</a>
+                            <a class="dropdown-item" href="terms.html">Terms of Service</a>
+                            <a class="dropdown-item" href="privacy.html">Privacy policy</a>
+                        </div>
+                    </li>
+                    <li class="nav-item ml-md-2">
+                        <a class="nav-link auth" href="#">Log in</a>
+                    </li>
+                    <li class="nav-item ml-md-2">
+                        <a class="nav-link auth button-signup" href="#">Sign up</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<style>
+    body{
+        background-color: #f7f7f7;
+    }
+</style>
+<div id="contact" class="container" data-app-page="contact">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="text-center">Do you have ideas or do you need more information ?</h1>
+            <form class="ml-md-5 mr-md-5" novalidate="novalidate">
+                <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response" value="03AOLTBLRh6omZyZiWx3uvkdPNBc66S2um_QnWgTEXKv1Z3-DOExO3F-heHs7-NPDlTg3IL0Rwh6JwwtfNnhektG6wO2EFiMnBw8qC-lR82wRxJhnGuGdcItRnNUnjjLzuP6y6DRpDaIr3hmMjt31xRZry9TFOkOXDFO8kzMmPC7l1di7ktsFivwn4TFhw4UH3YZEtZhpGzyKj-pB9_WCD_rq3Hnq5qKfH4-zgUe6iIMmqRPWjjjE5v378zM5TWr4NcGSH839AurzafSu9TQdxPMAD29ceb0sz7owTk2AK9U09zwb_PR0sjTSQhingxcs64m_o3N4y82JhsgzYef5uHt4xJ-LrRMTnsNcGMmIDe2anDIzFUyiFHGGq0-WNDLJQUK5KLkC2Kh0UhWz0-EaD3w9Ey9vmPH-WOQBHanrM-5g8r2xLg56OrZWKH6cBCiW1KAkFwWtFU1G_sPhc_Dc6lCCaRusQh8_MgqI6lZ_CRhr8gGSw4lkbUYM">
+                <div class="row">
+                    <div id="contact-success" class="col-md-12 d-none">
+                        <div class="alert alert-success" role="alert">
+                            Thanks for your message, we will study your request and come back to you as soon as possible.                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <label>Your name <span class="color-red">*</span></label>
+                        <input name="name" type="text" class="form-control mb-3" title="">
+                    </div>
+                    <div class="col-md-6">
+                        <label>Your Email <span class="color-red">*</span></label>
+                        <input name="email" type="text" class="form-control mb-3" title="">
+                    </div>
+                    <div class="col-md-12">
+                        <label>Your message <span class="color-red">*</span></label>
+                        <textarea name="message" class="form-control mb-3" title=""></textarea>
+                    </div>
+                    <div class="col-md-12">
+                        <button class="btn btn-default btn-cta pull-right" type="submit">Send <span class="fa fa-chevron-circle-right"></span></button>
+                    </div>
+
+                    <div class="col-md-12 my-2">
+                        <hr>
+                    </div>
+                    <div class="col-sm-6">
+                        <label>Email</label> :
+                        <a class="" href="mailto:contact@affi.io">contact@affi.io</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
